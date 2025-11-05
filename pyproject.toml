@@ -1,0 +1,16 @@
+[project]
+name = "cme-arrival-time-prediction"
+version = "0.1.0"
+description = "Neural network models for predicting CME (Coronal Mass Ejection) arrival times"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scipy",
+    "polars",
+    "scikit-learn",
+    "tensorflow",
+    "keras",
+    "matplotlib",
+]
