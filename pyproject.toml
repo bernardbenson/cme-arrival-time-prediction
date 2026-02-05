@@ -10,7 +10,6 @@ dependencies = [
     "scipy",
     "polars",
     "scikit-learn",
-    "tensorflow",
-    "keras",
     "matplotlib",
+    "torch",
 ]
