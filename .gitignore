@@ -9,3 +9,5 @@ wheels/
 # Virtual environments
 .venv
 /results/
+
+.DS_Store

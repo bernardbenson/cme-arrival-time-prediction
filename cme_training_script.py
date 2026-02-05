@@ -73,7 +73,7 @@ class CMETrainingScript:
         print(f"Loading training data: {training_file.name}")
         
         # Load data
-        data = pd.read_csv(training_file, index_col=0)
+        data = pd.read_csv(training_file)
         
         # Load time reference files
         erupt_time = self.read_time_from_file(folder_path / "Erupt_time.txt")
